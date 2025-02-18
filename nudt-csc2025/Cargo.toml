@@ -2,11 +2,11 @@
 name = "nudt-csc2025"
 version = "0.1.0"
 edition = "2021"
-authors = ["oyzl xdw zgx lrz"]
+authors = ["oyzl xdw zgx lrz hhw"]
 
 
 [build-dependencies] # <-- We added this and everything after!
 lalrpop = "0.22.1"
 
 [dependencies]
-lalrpop-util = { version = "0.21.0", features = ["lexer", "unicode"] }
+lalrpop-util = { version = "0.22.1", features = ["lexer", "unicode"] }
