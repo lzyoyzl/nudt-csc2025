@@ -10,3 +10,11 @@ lalrpop = "0.22.1"
 
 [dependencies]
 lalrpop-util = { version = "0.22.1", features = ["lexer", "unicode"] }
+
+# [feature]
+# default = [
+#     "frontend-cov_to_ir",
+#     "frontend-SysY",
+# ]
+# frontend-cov_to_ir = []
+# frontend-SysY = ["dep:regex", "dep:lalrpop-util"]
