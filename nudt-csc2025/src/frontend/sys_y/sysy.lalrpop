@@ -1,4 +1,4 @@
-use crate::ast::*;
+use nudt_csc2025::frontend::sys_y::ast::*;
 
 grammar;
 
